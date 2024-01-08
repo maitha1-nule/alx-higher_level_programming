@@ -3,9 +3,7 @@
 
 
 class MyList(list):
-    def __init__(self, items):
-        self.items = items
-        super().__init__(items)
+    """used to come up with a sorted list using an inherited class list"""
 
         def print_sorted(self):
             """print the list in ascending order"""
