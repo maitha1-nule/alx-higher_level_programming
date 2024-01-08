@@ -1,0 +1,1 @@
+This project is about Inheritance. its aim is to let us know the advantage of inheritance in python programing especially in the point of it helping us in reducing code that is we dont have to repeat every code..just share it within one another
