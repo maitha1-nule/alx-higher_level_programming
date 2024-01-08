@@ -2,10 +2,10 @@
 """mylist inherits list from nother class"""
 
 
-class MyList(list):
-    """used to come up with a sorted list using an inherited class list"""
+class MyList(List):
+    """Implements an inherited class called List"""
 
-        def print_sorted(self):
-            """print the list in ascending order"""
-            sorted_list = sorted(self)
-            print(sorted_list)
+    def print_sorted(self):
+        """prints the list in a sorted manner"""
+        sorted_list = sorted(self)
+        print(sorted_list)
