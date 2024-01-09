@@ -12,7 +12,7 @@ def read_file(filename=""):
         Exception: If an error occurs while reading the file
     """
     try:
-        with open(filename, 'r', encoding='UTF-8') as file:
+        with open(filename, 'r', encoding='UTF8') as file:
             for line in file:
                 print(line, end='')
     except Exception as e:
