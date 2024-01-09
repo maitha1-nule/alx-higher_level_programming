@@ -6,7 +6,10 @@ def read_file(filename=""):
     """This is the function to use
 
     Args:
-        filename which is not initialized
+        filename (str): The file to be read
+
+    Raises:
+        Exception: If an error occurs while reading the file
     """
     try:
         with open(filename, 'r', encoding='utf-8') as file:
