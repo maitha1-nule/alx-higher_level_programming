@@ -6,4 +6,4 @@ import json
 def load_from_json_file(filename):
     """the prototype to use for creation"""
     with open(filename, "r") as file:
-        json.load(file)
+        return json.load(file)
