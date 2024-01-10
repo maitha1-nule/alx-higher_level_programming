@@ -2,12 +2,10 @@
 """A script that defines a student class"""
 
 
-
 class Student():
     """represents a student class"""
     def __init__(self, first_name, last_name, age):
         """Initialization of a new student.
-
         Args:
             first_name (str): The first name of the student.
             last_name (str): The last name of the student.
