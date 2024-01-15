@@ -1,0 +1,1 @@
+This project was all about prepation for the upcoming gib O project, Its aim is to make us firmiliarize ourself with the oncepts of inheritance and more importantly OOP concepts which make python too be a super and owsome programming language
