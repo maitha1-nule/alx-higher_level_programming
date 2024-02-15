@@ -1,0 +1,1 @@
+This project was all about double linked list. Its aim was to firmiliarize us on how double linked lists are more easy to use compared to single linked lists in the point of insertion, deletion including editing the values
