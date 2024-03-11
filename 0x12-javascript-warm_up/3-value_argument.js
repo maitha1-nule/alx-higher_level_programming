@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!/usr/bin/node
 const { argv } = require('process');
 let count = 0;
 argv.forEach(() => {
