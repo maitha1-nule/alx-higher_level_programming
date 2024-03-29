@@ -12,4 +12,4 @@ if __name__ == "__main__":
     url = "http://0.0.0.0:5000/search_user"
     q = sys.argv[1]
     data = {"letter": q}
-     req = requests.post(url, data)
+    req = requests.post(url, data)
