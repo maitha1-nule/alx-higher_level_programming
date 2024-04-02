@@ -5,13 +5,12 @@ sends a request to the URL
 and displays the body of the response.
 """
 import requests
-import sys
+from sys import argv
 
 
-if __name__ == '__main__':
-    url = sys.argv[1]
-    req = requests.get(url)
-    if req.status_code >= 400:
-        print(f"Error code: {req.status_code}")
+if __name__ == "__main__":
+    r = requests.get(argv[1])
+    if r.status_code >= 400:
+        print("Error code: {}".format(r.status_code))
     else:
-        print(f"{req.text}")
+        print(r.text)
