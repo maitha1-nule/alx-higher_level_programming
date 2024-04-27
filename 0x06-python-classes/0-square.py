@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-class Square():
-    """This class square is sn empty one with no strings
-    """
+"""Defines a class Square."""
+
+
+class Square:
+    """Represents a square with no body"""
     pass
